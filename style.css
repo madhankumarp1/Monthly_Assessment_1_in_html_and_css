@@ -52,7 +52,7 @@ a {
 }
 
 .page2inner {
-    margin: 100px 0;
+    margin: 70px 0;
     display: flex;
     width: 90%;
 }
@@ -445,10 +445,16 @@ img.tech-type {
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid rgb(168, 163, 163);
     border-collapse: collapse;
     background-color: #FFFFFF;
+    height: 100%;
+    width: 50%;
+    
 
+}
+td.\31 {
+    text-decoration: underline;
 }
 
 table {
@@ -481,7 +487,7 @@ h3.side-heading {
 
 .page11 {
     width: 90%;
-    margin: 100px 0;
+    margin: 50px 0;
     display: grid;
     text-align: center;
 }
@@ -620,6 +626,10 @@ h3.side-heading1 {
 .cent {
     background: linear-gradient(#053786, #00A6CB);
     height: 10px;
+}
+.cent1 {
+    background: linear-gradient(#053786, #00A6CB);
+    height: 20px;
 }
 
 h3.heading {
