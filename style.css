@@ -15,10 +15,11 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    z-index: 1;
+    top: 0;
+    /* z-index: 1; */
     background: rgb(255, 255, 255);
-    margin: -13px;
-    padding: 0;
+    /* margin: -13px;
+    padding: 0; */
   }
 
 .page1sub {
@@ -60,6 +61,7 @@ a {
     background-image: url(images/hero-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* margin-top: 40px; */
 }
 
 .page2inner {
@@ -662,8 +664,11 @@ h3.side-heading6 {
 @media only screen and (max-width: 600px) {
     .page1 {
         width: 100%;
-        height: 12%;
-        z-index: 1;
+        overflow: hidden;
+        /* height: 25%; */
+        top: 0;
+        position: fixed;
+        /* z-index: -0; */
         /* display: grid;
         text-align: center; */
       }
@@ -703,6 +708,7 @@ h3.side-heading6 {
 
     .page2 {
         width: 100%;
+        margin-top: 40px;
 
     }
 
